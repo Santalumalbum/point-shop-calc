@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>ポイント計算アプリ</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>ポイント計算</h1>
+    <input type="number" id="price" placeholder="商品価格を入力（円）">
+    <button onclick="calculatePoints()">必要ポイントを計算</button>
+    <p id="result"></p>
+    
+    <button onclick="saveData()">保存しますか？</button>
+    
+    <h2>保存履歴</h2>
+    <ul id="savedList"></ul>
+    
+    <button class="delete-all" onclick="deleteAll()">すべて削除</button>
+    <button class="total-btn" onclick="showTotal()">合計を見る</button>
+    <p id="totalResult"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
