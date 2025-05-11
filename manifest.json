@@ -1,6 +1,6 @@
 {
-  "name": "ポイント計算アプリ",
-  "short_name": "ポイント計算",
+  "name": "ウェル活アプリ",
+  "short_name": "ウェル活",
   "description": "ポイントを1.5倍換算して使える買い物アプリ",
   "start_url": ".",
   "display": "standalone",
